@@ -1,0 +1,86 @@
+body {
+    font-family:fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fdb44b;
+}
+h1 {
+    margin-bottom: 60px;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.progress-container {
+    border: 3px solid#4caf50;
+    position: relative;
+    width: 100%;
+    background-color: #005792;
+    height: 30px;
+    margin: 50px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+}
+
+#numberDisplay {
+    margin-left: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color:  #00bbf0;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#add {
+    border:none;
+    border-radius: 20px;
+    
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(22, 215, 209);
+}
+#subtract {
+    border:none;
+    border-radius: 20px;    
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #d32828;
+}
+
+#undo {
+    border: none;
+    border-radius: 20px;    
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#a60781;
+}
+#redo {
+    border:none;
+    border-radius: 20px;    
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #83dc0e;
+}
